@@ -73,3 +73,10 @@ npm run dev
 - Backend API: http://127.0.0.1:8000
 - Admin Panel: http://127.0.0.1:8000/admin
 # Full-Stack-Learning-Management-System-LMS-
+
+
+<img width="1920" height="1380" alt="Image" src="https://github.com/user-attachments/assets/0f27980a-d5c0-477b-8436-45b6209af254" />
+
+<img width="1920" height="1462" alt="Image" src="https://github.com/user-attachments/assets/f7cc4a2b-7c24-4097-a001-fac2001eb117" />
+
+<img width="1920" height="1131" alt="Image" src="https://github.com/user-attachments/assets/d753e0b2-bdb0-42dc-8706-db823b1237a6" />
