@@ -1,0 +1,330 @@
+# ====================
+# Python / Django
+# ====================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+.envrc
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Django stuff
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+*.sqlite
+*.sqlite3
+backend/db.sqlite3
+backend/db.sqlite3-journal
+
+# Environment variables (contains sensitive data)
+.env
+.env.*
+.env.local
+.env.*.local
+.env.example
+backend/.env.example
+**/.env.example
+.env.production
+.env.development
+.env.staging
+
+# Django migrations (optional - uncomment if you don't want to track migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Media files uploaded by users
+media/
+backend/media/
+
+# Static files collected for production
+staticfiles/
+static_root/
+backend/staticfiles/
+backend/static_root/
+.settings/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+
+# Django cache
+*.cache
+.django_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# ====================
+# Node.js / React / Vite
+# ====================
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+**/node_modules/
+
+# Package lock files (optional - uncomment to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build output
+build/
+dist/
+frontend/build/
+frontend/dist/
+
+# Vite cache
+.vite/
+frontend/.vite/
+
+# Production build files
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+
+.vscode/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# ====================
+# Operating System
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ====================
+# IDEs and Editors
+# ====================
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ====================
+# Backups and Temporary Files
+# ====================
+
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*.backup
+~*
+
+# ====================
+# Security & Secrets
+# ====================
+
+# SSH keys
+*.pem
+*.key
+*.crt
+*.p12
+id_rsa
+id_rsa.pub
+
+# AWS credentials
+.aws/
+*.pem
+
+# Secret files
+secrets.json
+credentials.json
+secrets/
+.secrets/
+
+# ====================
+# Testing & CI/CD
+# ====================
+
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ====================
+# Database Dumps
+# ====================
+
+*.sql
+*.dump
+
+# ====================
+# Logs and Monitoring
+# ====================
+
+logs/
+log/
+
+# ====================
+# Package Files
+# ====================
+
+*.egg
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# ====================
+# Documentation Build
+# ====================
+
+docs/_build/
+site/
+
+# ====================
+# Project Specific
+# ====================
+
+# Test files (optional - uncomment if you don't want to track test files)
+# test_*.py
+# *_test.py
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints/
+*.ipy
+
+# Python virtual environment activation scripts
+activate
+activate.bat
+activate.ps1
+Activate.ps1
+
+# Session data and local development
+*.session
+*.session.*
+
+# Environment-specific files
+.env.production
+.env.development
+.env.staging
+
+# IDE and system files
+.project
+.pydevproject
+.settings/
+*.swp
+*.swo
+*~
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Deployment and production files
+/static/
+/media/nb
+
+# Local development files
+TODO.md
+NOTES.md
+scratch/
+temp/
